@@ -11,7 +11,10 @@ const newMsg = msg.split('').map((item, index)=>{
 	return index % 2 == 0 ? item.toUpperCase() : item
 }).join('');
 
-ReactDOM.render(
+ReactDOM.render([
 	<h2 className={ styles.red }>{newMsg}</h2>,
+	<small>You are running this application in <b>{process.env.NODE_ENV}</b> mode.</small>
+	]
+	,
 	document.getElementById('app')
 );
