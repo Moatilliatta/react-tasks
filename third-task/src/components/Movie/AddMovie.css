@@ -1,0 +1,18 @@
+.movie-head {
+	display: flex;
+	flex-direction: column;
+    align-content: space-evenly;
+    margin: 3em auto;
+}
+
+.movie-head button {
+	align-self: flex-end;
+	color: #F65261;
+	background: rgba(15, 15, 15, 0.3);
+}
+
+.movie-head label {
+	font-size: 2em;
+	font-weight: lighter;
+	letter-spacing: 2px;
+}
