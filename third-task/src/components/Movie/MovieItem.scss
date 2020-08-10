@@ -1,0 +1,38 @@
+.MovieCard {
+	width: 240px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    text-transform: capitalize;
+    margin-bottom: 3em;
+    color: gray;
+
+    img {
+        height: 300px;
+    }
+
+    > label {
+        font-size: .8em;
+    }
+
+    .info {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        font-weight: 500;
+        margin: 1em 0 .2em 0;
+
+        .title {
+            flex-grow: 4;
+        }
+
+        .release-date {
+            width: 50px;
+            flex-grow: 1;
+            text-align: center;
+            border: 1px solid gray;
+            border-radius: 4px;
+        }
+    }
+}

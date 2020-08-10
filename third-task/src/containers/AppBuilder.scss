@@ -1,10 +1,10 @@
 .container {
 	background-color: #232323;
 	margin: 0 auto;
-}
 
-.container > div {
-	margin: 0 4em;
+	> div {
+		margin: 0 4em;
+	}
 }
 
 .control {

@@ -1,5 +1,5 @@
 import React from 'react';
-import './Count.css';
+import './Count.scss';
 
 const Count = (props) => {
   return (

@@ -1,5 +1,5 @@
 import React from 'react';
-import './AddMovie.css';
+import './AddMovie.scss';
 
 const AddMovie = (props) => {
   return (

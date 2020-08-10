@@ -3,7 +3,7 @@ import Search from '../Search/Search';
 import AddMovie from '../Movie/AddMovie';
 import DefaultErrorBoundary from '../../ErrorBoundary/DefaultErrorBoundary';
 
-import './Layout.css';
+import './Layout.scss';
 
 const styles = {
 	width: "100%",

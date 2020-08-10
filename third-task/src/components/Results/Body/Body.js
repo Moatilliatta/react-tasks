@@ -1,6 +1,6 @@
 import React from 'react';
 import MovieItem from '../../Movie/MovieItem';
-import './Body.css';
+import './Body.scss';
 
 const Body = (props) => {
 

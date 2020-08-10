@@ -3,7 +3,7 @@ import Filter from '../components/Results/Filter/Filter';
 import Sort from '../components/Results/Sort/Sort';
 import Count from '../components/Results/Count/Count';
 import Body from '../components/Results/Body/Body';
-import './AppBuilder.css';
+import './AppBuilder.scss';
 
 class AppBuilder extends Component {
 	state = {
