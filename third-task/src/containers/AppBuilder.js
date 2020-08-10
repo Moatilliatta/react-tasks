@@ -1,11 +1,11 @@
 import React, { Component } from 'react';
-import Filter from './Filter/Filter';
-import Sort from './Sort/Sort';
-import Count from './Filter/Count';
-import Body from './Filter/Body';
-import './Results.css';
+import Filter from '../components/Results/Filter/Filter';
+import Sort from '../components/Results/Sort/Sort';
+import Count from '../components/Results/Filter/Count';
+import Body from '../components/Results/Filter/Body';
+import './AppBuilder.css';
 
-class Results extends Component {
+class AppBuilder extends Component {
 	state = {
 		movies: [
 	      	{id:'1', title: 13, releaseDate: "1981", genre: 'Horror'},
@@ -24,8 +24,8 @@ class Results extends Component {
 		}
 
 		return (
-			<section className="results">
-				<div className="results-control">
+			<section className="container">
+				<div className="control">
 					<Filter />
 			    	<Sort />
 			    </div>
@@ -38,4 +38,4 @@ class Results extends Component {
 	}
 }
 
-export default Results;
+export default AppBuilder;

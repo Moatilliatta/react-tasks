@@ -1,7 +1,6 @@
 import React from 'react';
 import Search from '../Search/Search';
 import AddMovie from '../Movie/AddMovie';
-import Results from '../Results/Results';
 import DefaultErrorBoundary from '../../ErrorBoundary/DefaultErrorBoundary';
 
 import './Layout.css';
@@ -19,7 +18,7 @@ const layout = (props) => (
 				<AddMovie />
 				<Search />
 			</header>
-			<Results />
+			{props.children}
 		</DefaultErrorBoundary>
 		<footer>something</footer>
 	</React.Fragment>

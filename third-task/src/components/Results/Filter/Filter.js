@@ -2,13 +2,17 @@ import React from 'react';
 import './Filter.css';
 
 const Filter = (props) => {
+	const filterOptions = [
+		'all', 'documentary', 'comedy', 'horror', 'crime'
+	];
+
+	const options = filterOptions.map((item)=>{
+		return <button>{item}</button>
+	});
+
   return (
   	<div className="filter-list">
-    	<a href="#">all</a>
-    	<a href="#">documentary</a>
-    	<a href="#">comedy</a>
-    	<a href="#">horror</a>
-    	<a href="#">crime</a>
+  		{ options }
 	</div>	
   )
 }

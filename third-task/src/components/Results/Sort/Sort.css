@@ -13,6 +13,14 @@
     padding: 0 .5em;
 }
 
+.sort-by select option{
+	text-transform: inherit;
+    background-color: #232323;
+    color: inherit;
+    border: none;
+    padding: 0 .5em;
+}
+
 /*
 TODO: change arrow color;
 http://jsfiddle.net/ztayse92/

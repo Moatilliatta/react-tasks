@@ -4,8 +4,7 @@ import './AddMovie.css';
 const AddMovie = (props) => {
   return (
   	<section className="movie-head">
-	    <button>+add movie</button>
-	    <label>find your movie</label>
+	    <button>+ add movie</button>
 	</section>
   )
 }

@@ -1,13 +1,13 @@
-.results {
+.container {
 	background-color: #232323;
 	margin: 0 auto;
 }
 
-.results > div {
+.container > div {
 	margin: 0 4em;
 }
 
-.results-control {
+.control {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;

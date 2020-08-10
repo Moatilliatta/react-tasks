@@ -1,8 +1,13 @@
 .search-section {
-	margin: 4em auto;
+	margin: 4em;
 	text-align: center;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+
+.search-box {
+	display: flex;
+	margin: 4em 0;
 }
 
 .search-section * {
@@ -10,7 +15,10 @@
 }
 
 .search-section label{
-	flex-grow: 12;
+	align-self: flex-start;
+	font-size: 2em;
+	font-weight: lighter;
+	letter-spacing: 2px;
 }
 
 .search-section input{
