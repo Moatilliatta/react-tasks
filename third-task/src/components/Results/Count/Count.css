@@ -1,4 +1,6 @@
+.count-container {
+	margin: 1em 0;
+}
 .count-container label{
 	font-weight: bold;
-	margin: 1em 0;
 }

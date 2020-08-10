@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Filter from '../components/Results/Filter/Filter';
 import Sort from '../components/Results/Sort/Sort';
-import Count from '../components/Results/Filter/Count';
-import Body from '../components/Results/Filter/Body';
+import Count from '../components/Results/Count/Count';
+import Body from '../components/Results/Body/Body';
 import './AppBuilder.css';
 
 class AppBuilder extends Component {
