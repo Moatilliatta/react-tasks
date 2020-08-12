@@ -1,3 +1,15 @@
+## Getting Started
+
+Install dependencies: `npm install`
+
+Run the app: `npm run start`
+
+The app will start running at `http://localhost:8080`
+
+Run tests: `npm test`
+
+Create build for production: `npm run build`
+
 ## Styling
 
 This will be a continous WIP in order to improve the look and feel.

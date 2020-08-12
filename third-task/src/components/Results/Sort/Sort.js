@@ -6,8 +6,8 @@ const Sort = (props) => {
     <div className="sort-by">
     	<label>sort by</label>
     	<select>
-    		<option>Release Date</option>
-    		<option>Title</option>
+    		<option>release date</option>
+    		<option>title</option>
     	</select>
     </div>
   )
