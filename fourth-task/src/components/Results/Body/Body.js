@@ -1,5 +1,6 @@
 import React from 'react';
-import MovieItem from '../../Movie/MovieItem';
+import MovieItem from '../../../containers/MovieItem/MovieItem';
+import Spinner from '../../Utils/Spinner';
 import './Body.scss';
 
 const Body = (props) => {
@@ -7,7 +8,7 @@ const Body = (props) => {
 	// Import all images in image folder
 	const importAll = (r) => {
 	    let images = {};
-	    r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+	    r.keys().map((item, index) => { return images[item.replace('./', '')] = r(item); });
 	    return images;
 	}
 	const images = importAll(require.context('../../../../public', false, /\.(gif|jpe?g|svg)$/));
@@ -24,7 +25,7 @@ const Body = (props) => {
 
   return (
     <main className="body-list">
-    	{ movieList }
+    	{ movieList.length > 0 ? movieList : <Spinner /> }
     </main>
   )
 }

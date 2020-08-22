@@ -1,0 +1,50 @@
+.form {
+  div {
+    margin: 1em;
+    display: flex;
+    flex-direction: column;
+  }
+
+  label {
+    color: #f65261;
+    font-size: 1em;
+    padding: 3px 0;
+    font-weight: inherit;
+  }
+
+  input, select {
+    background-color: #424242;
+    color: white;
+    padding: 1em;
+    border: none;
+    border-radius: 3px;
+    font-size: 1.1em;
+  }
+
+  select {
+    text-transform: capitalize;
+  }
+
+  .buttons-frm {
+    flex-direction: row;
+    text-transform: capitalize;
+    justify-content: flex-end;
+    margin-top: 3em;
+
+    input, button {
+      background-color: #f65261;
+      color: inherit;
+      padding: 1em 3em;
+      border: 1px solid #f65261;
+      border-radius: .5em;
+      font-size: 1em;
+      text-transform: uppercase;
+      margin-left: 1em;
+    }
+
+    input:first-child{
+      background-color: transparent;
+      color: #f65261;
+    }
+  }
+}

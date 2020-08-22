@@ -1,5 +1,5 @@
 import React from 'react';
-import AppBuilder from './containers/AppBuilder';
+import AppBuilder from './containers/AppBuilder/AppBuilder';
 import Layout from './components/Layout/Layout';
 
 function App() {

@@ -1,0 +1,25 @@
+.edit-opt{
+  display: flex;
+  // display: none;
+  width: inherit;
+  position: absolute;
+  background-color: #232323;
+  flex-direction: column;
+  color: white;
+  user-select: none;
+  padding: 3px 0;
+
+  span:first-child {
+    align-self: flex-end;
+    text-transform: none;
+    padding-right: 5px;
+    font-weight: bolder;
+  }
+
+  span:not(:first-child) {
+    padding: 3px 1em;
+    &:hover{
+      background-color: #F65261;
+    }
+  }
+}

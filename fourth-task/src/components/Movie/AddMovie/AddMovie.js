@@ -4,7 +4,7 @@ import './AddMovie.scss';
 const AddMovie = (props) => {
   return (
   	<section className="movie-head">
-	    <button>+ add movie</button>
+	    <button onClick={props.add}>+ add movie</button>
 	</section>
   )
 }

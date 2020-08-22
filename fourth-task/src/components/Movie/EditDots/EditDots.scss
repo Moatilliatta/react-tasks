@@ -1,0 +1,19 @@
+.edit-dots{
+  display: none;
+  padding: 1px 5px;
+  background-color: #232323;
+  color: white;
+  align-self: flex-end;
+  position: absolute;
+  border-radius: 1em;
+  margin: 5px;
+
+  button{
+    padding: 1px 0;
+    background-color: inherit;
+    outline: none;
+    font-size: x-large;
+    font-weight: bolder;
+    border-radius: inherit;
+  }
+}
