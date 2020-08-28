@@ -1,0 +1,23 @@
+.container-frm {
+  width: 35em;
+
+  label {
+        align-self: flex-start;
+        font-size: 2em;
+        font-weight: lighter;
+        letter-spacing: 2px;
+  }
+}
+
+@media only screen and (max-width: 1280px) {
+  .container-frm {
+    width: 35em;
+
+    label {
+      align-self: flex-start;
+      font-size: 1em;
+      font-weight: lighter;
+      letter-spacing: 2px;
+    }
+  } 
+}

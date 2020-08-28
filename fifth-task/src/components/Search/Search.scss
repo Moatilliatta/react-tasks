@@ -1,0 +1,36 @@
+
+.search-box {
+	display: flex;
+}
+
+.search-section {
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+
+	* {
+		border-radius: 4px;
+	}
+
+	label{
+		align-self: flex-start;
+		font-size: 2em;
+		font-weight: lighter;
+		letter-spacing: 2px;
+		margin: 2em 0;
+	}
+
+	input{
+		flex-grow: 4;
+		background-color: #424242;
+		border: 0;
+		color: white;
+	    font-size: 1.2em;
+	    padding: 0 1em;
+	}
+
+	button{
+		flex-grow: 1;
+		background-color: #f65261;
+	}
+}

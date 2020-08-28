@@ -1,0 +1,64 @@
+.MovieInfo {
+  display: flex;
+  flex-direction: column;
+  margin: 0 4em;
+  height: inherit;
+
+  .top-info{
+    display: flex;
+    justify-content: space-between;
+    margin: 2em 0;
+
+    img {
+      width: 2em;
+    }
+  }
+
+  main {
+    display: flex;
+    flex-direction: row;
+
+    img {
+      height: 17em;
+      margin-right: 3em;
+    }
+
+    section {
+      text-transform: none;
+
+      p {
+        margin: 0 0 1em 0;
+      }
+
+      .title-genre {
+        label {
+          margin: 0;
+          span {
+                border: 1px solid white;
+                border-radius: 1em;
+                padding: 8px;
+                font-size: .8em;
+                color: lawngreen;
+                width: 33px;
+                display: inline-block;
+          }
+        }
+      }
+
+      .release-duration {
+        display: flex;
+        justify-content: space-between;
+        width: 8em;
+      }
+
+      .description {
+        overflow-y: auto;
+        height: 7em;
+      }
+      .release-duration {
+        color: #F65261;
+        font-size: 1.5em;
+      }
+    }
+  }
+}
