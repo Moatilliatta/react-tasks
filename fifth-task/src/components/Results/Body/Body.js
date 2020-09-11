@@ -16,14 +16,8 @@ const Body = (props) => {
 	const movieList = props.movies.map((item, key)=>{
 		return <MovieItem
 			key={item.id}
-			id={item.id}
 			imgSrc={images[`${item.id}.jpg`]}
-			title={item.title}
-			releaseDate={item.releaseDate}
-			description={item.description}
-			genre={item.genre}
-			rating={item.rating}
-			duration={item.duration}
+			{...item}
 		/>
 	});
 
