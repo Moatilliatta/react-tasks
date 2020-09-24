@@ -1,8 +1,15 @@
-.form {
+.movie-form {
   div {
     margin: 1em;
     display: flex;
     flex-direction: column;
+
+    // width: 100%;
+    // box-sizing: border-box;
+  }
+
+  .error {
+    background-color: red;
   }
 
   label {
@@ -15,7 +22,7 @@
   input, select {
     background-color: #424242;
     color: white;
-    padding: 1em;
+    padding: .5em;
     border: none;
     border-radius: 3px;
     font-size: 1.1em;
