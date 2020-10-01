@@ -1,0 +1,14 @@
+.not-found {
+	display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 25em;
+    justify-content: center;
+
+	label {
+		text-transform: capitalize;
+		font-size: 2em;
+		font-weight: lighter;
+		letter-spacing: 2px;
+	}
+}

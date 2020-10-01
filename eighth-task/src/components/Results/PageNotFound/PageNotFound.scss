@@ -1,0 +1,48 @@
+.PageNotFound {
+  display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 95vh;
+    background-color: #232323;
+
+  label {
+    text-transform: capitalize;
+    font-size: 2em;
+    font-weight: lighter;
+    letter-spacing: 2px;
+  }
+
+  button{
+    background-color: transparent;
+    color: #F65261;
+    padding: 1em 3em;
+    border: 1px solid #F65261;
+    border-radius: .5em;
+    font-size: 1em;
+    text-transform: uppercase;
+    margin-left: 1em;
+  }
+
+  body {
+    display: grid;
+    grid-template-areas: ". . ." ". text ." ". . .";
+    grid-template-rows: 1fr auto 1fr;
+    grid-template-columns: 1fr auto 1fr;
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #333333, #222222)
+  }
+
+  .threeD {
+    grid-area: text;
+    font-family: 'Sarpanch', sans-serif;
+    font-size: 35vmin;
+    margin: 0;
+    padding: 30px;
+    color: #1d9099;
+    text-shadow: 1vmin 1vmin 0 #E79C10, -1vmin -1vmin 0 #D53A33;
+  }
+}
