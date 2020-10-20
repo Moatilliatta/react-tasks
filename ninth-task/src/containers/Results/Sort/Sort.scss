@@ -1,0 +1,30 @@
+.sort-by {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+    label {
+        font-size: .8em;
+    }
+
+    select {
+        text-transform: inherit;
+        background-color: inherit;
+        color: inherit;
+        border: none;
+        padding: 0 .5em;
+    }
+
+    select option{
+        text-transform: inherit;
+        background-color: #232323;
+        color: inherit;
+        border: none;
+        padding: 0 .5em;
+    }
+}
+
+/*
+TODO: change arrow color;
+http://jsfiddle.net/ztayse92/
+ */

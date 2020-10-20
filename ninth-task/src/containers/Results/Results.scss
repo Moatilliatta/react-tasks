@@ -1,0 +1,25 @@
+.container {
+	background-color: #232323;
+	margin: 0 auto;
+
+	> div {
+		margin: 0 4em;
+	}
+}
+
+.control {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding: 1em 0;
+    border-bottom: 1px solid gray;
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+	.container {
+
+		> div {
+			margin: 0 2em;
+		}
+	}
+}

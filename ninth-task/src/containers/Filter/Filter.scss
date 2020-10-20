@@ -1,0 +1,32 @@
+.filter-list {
+    width: 24em;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+  button {
+    color: white;
+    text-decoration: none;
+    border: none;
+    padding: 0;
+    text-align: center;
+    display: inline-block;
+    text-transform: uppercase;
+    background-color: transparent;
+    outline: none;
+  }
+
+  button:hover {
+    border-bottom: 1px solid #F65261;
+  }
+}
+
+@media only screen and (min-width: 700px) and (max-width: 999px) {
+    .filter-list {
+      width: 19em;
+
+      button {
+        font-size: 1em;
+      }
+    }
+  }

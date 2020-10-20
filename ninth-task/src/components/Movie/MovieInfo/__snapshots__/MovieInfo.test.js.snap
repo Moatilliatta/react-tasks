@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<MovieInfo /> should set the movie info with movie object and close action 1`] = `
+<div
+  className="MovieInfo"
+>
+  <div
+    className="top-info"
+  >
+    <span>
+      netflix roulette
+    </span>
+    <label
+      onClick={[Function]}
+    >
+      <img
+        alt=""
+        src="//localhost/search.png"
+      />
+    </label>
+  </div>
+  <main>
+    <section>
+      <p
+        className="title-genre search-section"
+      >
+        <label>
+          
+           
+          <span />
+        </label>
+      </p>
+      <p
+        className="genre"
+      >
+        <label>
+          
+        </label>
+      </p>
+      <p
+        className="release-duration"
+      >
+        <label>
+          NaN
+        </label>
+        <span>
+           min
+        </span>
+      </p>
+      <p
+        className="description"
+      >
+        <label>
+          
+        </label>
+      </p>
+    </section>
+  </main>
+</div>
+`;
