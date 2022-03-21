@@ -25,10 +25,23 @@
     "build": "react-scripts build",
     "test": "react-scripts test --colors",
     "eject": "react-scripts eject",
-    "jest-coverage": "npm test -- --coverage"
+    "test:coverage": "npm test -- --coverage --watchAll=false --colors"
   },
   "eslintConfig": {
     "extends": "react-app"
+  },
+  "jest": {
+    "collectCoverageFrom": [
+      "**/*.{js,jsx,ts}",
+      "!**/node_modules/**",
+      "!**/vendor/**",
+      "!**/coverage/**"
+    ],
+    "coverageThreshold": {
+      "global": {
+        "lines": 80
+      }
+    }
   },
   "browserslist": {
     "production": [
